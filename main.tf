@@ -44,7 +44,7 @@ resource "yandex_mdb_postgresql_database" "db1" {
   name       = "db1"
   owner      = "mashkov"
   depends_on = [
-    yandex_mdb_postgresql_user.mashkov
+    yandex_mdb_postgresql_user.user1
   ]
 }
 
